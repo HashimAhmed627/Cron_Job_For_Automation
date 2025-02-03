@@ -34,9 +34,16 @@ Let's break down this script:
 _________________________________________________________________________________________________________________________________
 ### Setting Up The Cron Job
 ![crontab -e](https://github.com/user-attachments/assets/d2114828-2339-4949-aad0-6865f889b45e)
+
+- This command opens the crontab file in a text editor, allowing me to schedule tasks (cron jobs) to run automatically at specified times.
+  
 ![cronjob explanation](https://github.com/user-attachments/assets/b1354580-cb22-4a42-8854-a94b98e09860)
+
+- The lines starting with # are comments and don't get executed. These comments provide useful information, such as how to format cron jobs.
+  
 ![my cronjob](https://github.com/user-attachments/assets/0a6c3a2f-8686-43ea-80fa-a63186849d88)
 
+`0 0 * * * /home/cyberhashim/cronjob.sh`: 
 
 
 ## Lessons Learned
